@@ -1,0 +1,30 @@
+{
+    "name": "Music Bot",
+    "logo": "https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
+    "description": "Alexa Is A Powerful, Smart And Simple Music Bot.",
+    "keywords": ["music", "voice chat", "music bot", "telegram"],
+    "repository": "https://github.com/jankarikiduniya/Music-BOT",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your App Hash",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Put Bot Token Of Your Bot",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
