@@ -3,7 +3,10 @@ from pyrogram.types import Message
 from pymongo import MongoClient
 
 # Create bot instance
-bot = Client('5893160347:AAHfrd5QESVn1twJlt8m2kEEOwIhjponk3g')
+api_id = "8116361"
+api_hash = "3052a25fccbcac402456dd864ed022fd"
+bot_token = "5893160347:AAHfrd5QESVn1twJlt8m2kEEOwIhjponk3g"
+bot = Client(':memory:', api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # Connect to MongoDB
 MONGODB_URL = "mongodb+srv://AlexaMusic:AlexaMusic@cluster0.ev6cioc.mongodb.net/?retryWrites=true&w=majority" # Replace with your MongoDB URL
