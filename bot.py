@@ -1,3 +1,12 @@
+from pyrogram import Client, filters
+from pyrogram.types import Message, Voice
+import asyncio
+import os
+import time
+import ffmpeg
+from pytube import YouTube
+
+
 # Create bot instance
 api_id = int(os.environ.get("APP_ID")
 api_hash = os.environ.get("API_HASH")
