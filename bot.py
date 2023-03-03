@@ -8,9 +8,9 @@ from pytube import YouTube
 
 
 # Create bot instance
-api_id = int(os.environ.get("8116361"))
-api_hash = os.environ.get("3052a25fccbcac402456dd864ed022fd")
-bot_token = os.environ.get("5893160347:AAHfrd5QESVn1twJlt8m2kEEOwIhjponk3g")
+api_id = "8116361"
+api_hash = "3052a25fccbcac402456dd864ed022fd"
+bot_token = "5893160347:AAHfrd5QESVn1twJlt8m2kEEOwIhjponk3g"
 bot = Client(':memory:', api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # Dictionary to store active voice chats
