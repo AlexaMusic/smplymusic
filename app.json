@@ -8,15 +8,15 @@
     "env": {
         "API_ID": {
             "description": "Your App ID",
-            "required": true
+            "required": false
         },
         "API_HASH": {
             "description": "Your App Hash",
-            "required": true
+            "required": false
         },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
-            "required": true
+            "required": false
         }
     },
     "buildpacks": [
