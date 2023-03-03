@@ -64,3 +64,4 @@ def broadcast_message(bot: Client, message: Message):
                 pass
 
     message.reply_text(f'Message sent to {count} groups.')
+bot.run()
